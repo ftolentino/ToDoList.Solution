@@ -11,12 +11,12 @@ namespace ToDoList.Models
   
 
     public Category(string categoryName)
-      {
-        Name = categoryName;
-        _instances.Add(this);
-        Id = _instances.Count;
-        Items = new List<Item>{};
-      }
+    {
+      Name = categoryName;
+      _instances.Add(this);
+      Id = _instances.Count;
+      Items = new List<Item>{};
+    }
 
     public static void ClearAll()
     {
@@ -34,8 +34,8 @@ namespace ToDoList.Models
     }
 
     public void AddItem(Item item)
-  {
-    Items.Add(item);
-  }
+    {
+      Items.Add(item);
+    }
   }
 }

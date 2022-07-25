@@ -16,7 +16,5 @@ namespace ToDoList.Controllers
       {
         return View();
       }
-
-
     }
 }
