@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore;
 using ToDoList.Models;
 
 namespace ToDoList
@@ -47,9 +47,4 @@ namespace ToDoList
       });
     }
   }
-
-  // public static class DBConfiguration
-  // {
-  //   public static string ConnectionString = "server=localhost;user id=root;password=epicodus;port=3306;database=to_do_list;";
-  // }
 }
